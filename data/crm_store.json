@@ -1,0 +1,1102 @@
+{
+  "lastUpdated": 1788784645182,
+  "supabaseConfig": {
+    "url": "https://hbjtojwixanabkjwqsxr.supabase.co",
+    "anonKey": "sb_publishable_cE3o1JJd400fjkToUjZigQ_z1JBFJB3",
+    "enabled": true
+  },
+  "users": [
+    {
+      "id": "u1",
+      "nome": "Administrador",
+      "user": "admin",
+      "pass": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "u2",
+      "nome": "Consultor Comercial",
+      "user": "vendas",
+      "pass": "vendas123",
+      "role": "user"
+    }
+  ],
+  "empresa": {
+    "razaoSocial": "FERA SISTEMA DO BRASIL",
+    "nomeFantasia": "FERA SISTEMA DO BRASIL — LINX/TOTVS",
+    "cnpj": "08.323.625/0001-04",
+    "inscricaoEstadual": "",
+    "telefone": "",
+    "email": "",
+    "site": "",
+    "endereco": "AV JUCA SAMPAIO -  LOJA 24 SHOPPING MIRAMAR  BAFEITOSA",
+    "cidade": "MACEIO",
+    "uf": "",
+    "cep": "57.042-530",
+    "responsavel": "DAVISSON ROBERT BARBOSA DE ARAUJO",
+    "slogan": "Sistemas para postos de combustível e conveniência",
+    "logo": ""
+  },
+  "produtos": [
+    {
+      "id": "p7",
+      "nome": "Automação de Bombas (Básico)",
+      "descricao": "Integração com concentradores e automação de bombas (Wayne, Gilbarco, Laser). Liberação e captura de volume.",
+      "preco": 12000,
+      "implantacao": 3500,
+      "mensalidade": 400,
+      "categoria": "posto",
+      "icone": "fa-gas-pump",
+      "modulos": [
+        "Liberação de bomba",
+        "Captura de volume",
+        "Pré-determinação",
+        "Integração concentrador",
+        "Log de abastecimentos"
+      ]
+    },
+    {
+      "id": "p2",
+      "nome": "Gestão de Combustível",
+      "descricao": "Controle de estoque de combustível, medição de tanques, alertas de reposição e conciliação.",
+      "preco": 6500,
+      "implantacao": 1800,
+      "mensalidade": 280,
+      "categoria": "posto",
+      "icone": "fa-oil-can",
+      "modulos": [
+        "Estoque de combustível",
+        "Medição de tanques",
+        "Alertas de reposição",
+        "Conciliação de volume",
+        "Entrada de cargas",
+        "Perdas e sobras"
+      ]
+    },
+    {
+      "id": "p1",
+      "nome": "AutoSytem - linx totvs",
+      "descricao": "Ponto de venda completo para bombas, com integração de tanques, nota fiscal e controle de turno.",
+      "preco": 7500,
+      "implantacao": 7500,
+      "mensalidade": 1500,
+      "categoria": "posto",
+      "icone": "fa-cash-register",
+      "modulos": [
+        "Frente de caixa",
+        "Controle de bombas",
+        "Nota fiscal (NFC-e)",
+        "Controle de turno",
+        "Relatórios de venda",
+        "Integração com tanques"
+      ]
+    },
+    {
+      "id": "p5",
+      "nome": "Suite Completa Posto + Loja",
+      "descricao": "Pacote integrado: PDV posto + gestão de combustível + PDV e estoque da conveniência.",
+      "preco": 10500,
+      "implantacao": 4500,
+      "mensalidade": 2500,
+      "categoria": "ambos",
+      "icone": "fa-layer-group",
+      "modulos": [
+        "PDV Posto",
+        "Gestão de combustível",
+        "PDV Conveniência",
+        "Gestão de estoque",
+        "Relatórios unificados",
+        "Multi-empresa"
+      ]
+    },
+    {
+      "id": "p4",
+      "nome": "Gestão de Estoque",
+      "descricao": "Controle completo de estoque, compras, fornecedores e inventário para conveniência.",
+      "preco": 3200,
+      "implantacao": 800,
+      "mensalidade": 150,
+      "categoria": "conveniencia",
+      "icone": "fa-boxes-stacked",
+      "modulos": [
+        "Cadastro de produtos",
+        "Compras e fornecedores",
+        "Inventário",
+        "Curva ABC",
+        "Sugestão de compra",
+        "Transferência entre lojas"
+      ]
+    },
+    {
+      "id": "p6",
+      "nome": "App Mobile Gestor",
+      "descricao": "Aplicativo para o dono acompanhar vendas, estoque e relatórios em tempo real.",
+      "preco": 1500,
+      "implantacao": 0,
+      "mensalidade": 99,
+      "categoria": "ambos",
+      "icone": "fa-mobile-screen",
+      "modulos": [
+        "Dashboard mobile",
+        "Vendas em tempo real",
+        "Estoque resumido",
+        "Alertas push",
+        "Relatórios rápidos"
+      ]
+    },
+    {
+      "id": "p8",
+      "nome": "Fiscal & Contábil",
+      "descricao": "Emissão de NF-e, NFC-e, SPED e integração contábil para postos e lojas.",
+      "preco": 2800,
+      "implantacao": 600,
+      "mensalidade": 180,
+      "categoria": "ambos",
+      "icone": "fa-file-invoice",
+      "modulos": [
+        "NFC-e",
+        "NF-e",
+        "SPED Fiscal",
+        "Integração contábil",
+        "Cancelamento e inutilização",
+        "Manifestação do destinatário"
+      ]
+    },
+    {
+      "id": "p3",
+      "nome": "Autosystem - Conveniência",
+      "descricao": "Sistema de frente de caixa para loja de conveniência com balança, estoque ...",
+      "preco": 3000,
+      "implantacao": 3000,
+      "mensalidade": 950,
+      "categoria": "conveniencia",
+      "icone": "fa-store",
+      "modulos": [
+        "Frente de caixa",
+        "Integração com balança",
+        "Promoção e desconto",
+        "Controle de estoque básico",
+        "NFC-e",
+        "Sangria e suprimento"
+      ]
+    },
+    {
+      "id": "p9",
+      "nome": "Automação de Bombas",
+      "descricao": "Automação completa de bombas (Wayne, Gilbarco, Laser, etc.): liberação, pré-determinação, captura de volume e integração com PDV.",
+      "preco": 0,
+      "implantacao": 7000,
+      "mensalidade": 1500,
+      "categoria": "posto",
+      "icone": "fa-gears",
+      "modulos": [
+        {
+          "nome": "Automação completa",
+          "preco": 0
+        },
+        {
+          "nome": "Pré-determinação",
+          "preco": 0
+        },
+        {
+          "nome": "Captura de volume",
+          "preco": 0
+        },
+        {
+          "nome": "Bloqueio de bomba",
+          "preco": 0
+        },
+        {
+          "nome": "Integração PDV",
+          "preco": 0
+        },
+        {
+          "nome": "Multi-marca (Wayne, Gilbarco, Laser)",
+          "preco": 0
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "nome": "Medidor de Tanques (ATG)",
+      "descricao": "Sistema de medição automática de tanques: nível, volume, temperatura, água e alertas de vazamento. Integração com gestão de combustível.",
+      "preco": 25000,
+      "implantacao": 3200,
+      "mensalidade": 320,
+      "categoria": "posto",
+      "icone": "fa-gauge-high",
+      "modulos": [
+        "Nível e volume",
+        "Temperatura",
+        "Detecção de água",
+        "Alerta de vazamento",
+        "Histórico de medições",
+        "Integração gestão de combustível"
+      ]
+    },
+    {
+      "id": "p11",
+      "nome": "Pacote Automação + Medidor",
+      "descricao": "Combo: automação de bombas + medidor de tanques (ATG) com integração total ao PDV e gestão de estoque de combustível.",
+      "preco": 35000,
+      "implantacao": 6500,
+      "mensalidade": 690,
+      "categoria": "posto",
+      "icone": "fa-industry",
+      "modulos": [
+        "Automação de bombas",
+        "Medidor ATG",
+        "Integração PDV",
+        "Gestão de combustível",
+        "Alertas unificados",
+        "Relatório consolidado"
+      ]
+    },
+    {
+      "id": "mtlgf02fu0v8l",
+      "nome": "Linx- TOTVS-Autosystem  PRO + GLOUD",
+      "descricao": "",
+      "preco": 0,
+      "implantacao": 3000,
+      "mensalidade": 1340,
+      "categoria": "posto",
+      "icone": "fa-box",
+      "modulos": [
+        {
+          "nome": "Autosystem pro",
+          "preco": 600
+        },
+        {
+          "nome": "SNAST-POS",
+          "preco": 180
+        },
+        {
+          "nome": "NAFC-E MENSAL",
+          "preco": 85
+        },
+        {
+          "nome": "Equals",
+          "preco": 172
+        },
+        {
+          "nome": "QR code",
+          "preco": 50
+        },
+        {
+          "nome": "LInx-autosystem GLOUD  (NUVEM)",
+          "preco": 250
+        },
+        {
+          "nome": "Gestor app",
+          "preco": 85
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "nome": "Concentrador / Interface de Bombas",
+      "descricao": "Hardware e software de concentrador para comunicação com bombas e automação. Instalação e configuração inclusas na implantação.",
+      "preco": 5500,
+      "implantacao": 1800,
+      "mensalidade": 120,
+      "categoria": "posto",
+      "icone": "fa-network-wired",
+      "modulos": [
+        "Interface de bombas",
+        "Protocolos de comunicação",
+        "Configuração de pontos",
+        "Monitoramento de link",
+        "Suporte multi-bomba"
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "id": "mtlhhcdzdb6iy",
+      "nome": "FLAFIO FERREIRA",
+      "empresa": "POSTO CAETE LTDA",
+      "tipo": "posto",
+      "cnpj": "57.932.086/0001-08",
+      "filiais": [
+        {
+          "cnpj": "57.932.086/0004-50",
+          "nome": ""
+        },
+        {
+          "cnpj": "57.932.086/0003-70",
+          "nome": ""
+        },
+        {
+          "cnpj": "57.932.086/0002-99",
+          "nome": ""
+        },
+        {
+          "cnpj": "57.932.086/0001-08",
+          "nome": ""
+        }
+      ],
+      "telefone": "8196624849",
+      "email": "",
+      "cidade": "DELMIRO GOUVEIA",
+      "endereco": "",
+      "lat": null,
+      "lng": null,
+      "bombas": "",
+      "tamanhoLoja": "",
+      "origem": "Outro",
+      "status": "proposta",
+      "valorEstimado": 1400,
+      "valorImplantacao": 3000,
+      "valorMensalidade": 13400,
+      "observacoes": "",
+      "historico": [
+        {
+          "data": "2026-09-03T12:10:50.231Z",
+          "texto": "Lead criado"
+        },
+        {
+          "data": "2026-09-03T12:13:20.302Z",
+          "texto": "Proposta PROP-2026-003 criada"
+        },
+        {
+          "data": "2026-09-03T12:23:42.850Z",
+          "texto": "Proposta PROP-2026-0055 criada"
+        },
+        {
+          "data": "2026-09-03T12:35:00.914Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T12:36:19.740Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T12:39:24.276Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:08:48.919Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:11:45.796Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:18:51.475Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:20:44.606Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:30:17.535Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:33:20.301Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:36:24.057Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:43:16.127Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:45:47.812Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T13:50:12.985Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T14:11:38.334Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        },
+        {
+          "data": "2026-09-03T14:20:59.342Z",
+          "texto": "Proposta PROP-2026-0055 atualizada"
+        }
+      ],
+      "criadoEm": "2026-09-03T12:10:50.231+00:00"
+    },
+    {
+      "id": "mst2z24gnhs1p",
+      "nome": "Cicero Aparecido",
+      "empresa": "CAVALCANTE & LEITE LTDA - ME",
+      "tipo": "posto",
+      "cnpj": "CNPJ 09.231.306/0001-23",
+      "filiais": [],
+      "telefone": "",
+      "email": "",
+      "cidade": "Maceió, Alagoas",
+      "endereco": "CLIMA BOM",
+      "lat": -9.78031133458578,
+      "lng": -36.6491152419663,
+      "bombas": "",
+      "tamanhoLoja": "",
+      "origem": "Visita / prospecção",
+      "status": "proposta",
+      "valorEstimado": 15000,
+      "valorImplantacao": 15000,
+      "valorMensalidade": 3000,
+      "observacoes": "",
+      "historico": [
+        {
+          "data": "2026-08-14T15:07:09.568Z",
+          "texto": "Lead criado a partir de posto visitado"
+        },
+        {
+          "data": "2026-08-14T15:07:09.568Z",
+          "texto": "Visita: Visita presencial · Interesse: alto"
+        },
+        {
+          "data": "2026-09-03T09:43:00.139Z",
+          "texto": "Proposta PROP-2026-002 criada"
+        },
+        {
+          "data": "2026-09-03T09:44:37.732Z",
+          "texto": "Proposta PROP-2026-002 atualizada"
+        },
+        {
+          "data": "2026-09-03T11:04:00.274Z",
+          "texto": "Proposta PROP-2026-002 enviada por e-mail (mailto)"
+        }
+      ],
+      "criadoEm": "2026-08-14T15:07:09.568+00:00"
+    },
+    {
+      "id": "mst26tsobsafj",
+      "nome": "FRENTISTA -",
+      "empresa": "POSTO CARANGO",
+      "tipo": "posto",
+      "cnpj": "12.302.204/0001-66",
+      "filiais": [],
+      "telefone": "",
+      "email": "",
+      "cidade": "MACEIO -AL",
+      "endereco": "AV FERNANDES LIMA",
+      "lat": -9.78033998394337,
+      "lng": -36.6491054495019,
+      "bombas": "",
+      "tamanhoLoja": "",
+      "origem": "Visita / prospecção",
+      "status": "lead",
+      "valorEstimado": 0,
+      "valorImplantacao": 0,
+      "valorMensalidade": 0,
+      "observacoes": "",
+      "historico": [
+        {
+          "data": "2026-08-14T14:45:12.408Z",
+          "texto": "Lead criado a partir de posto visitado"
+        },
+        {
+          "data": "2026-08-14T14:45:12.408Z",
+          "texto": "Visita: Visita presencial · Interesse: baixo"
+        }
+      ],
+      "criadoEm": "2026-08-14T14:45:12.408+00:00"
+    },
+    {
+      "id": "mst23pvzni1ia",
+      "nome": "FRANTISTA ANA",
+      "empresa": "MARES DO NORTE EMPREENDIMENTOS",
+      "tipo": "posto",
+      "cnpj": "17.344.224/0001-13",
+      "filiais": [],
+      "telefone": "",
+      "email": "",
+      "cidade": "MACIEO -IPIOCA -AL",
+      "endereco": "ROD GUNTHER FRANS OLIVEIRA",
+      "lat": null,
+      "lng": null,
+      "bombas": "",
+      "tamanhoLoja": "",
+      "origem": "Visita / prospecção",
+      "status": "lead",
+      "valorEstimado": 0,
+      "valorImplantacao": 0,
+      "valorMensalidade": 0,
+      "observacoes": "",
+      "historico": [
+        {
+          "data": "2026-08-14T14:42:47.375Z",
+          "texto": "Lead criado a partir de posto visitado"
+        },
+        {
+          "data": "2026-08-14T14:42:47.375Z",
+          "texto": "Visita: Visita presencial · Interesse: baixo"
+        }
+      ],
+      "criadoEm": "2026-08-14T14:42:47.375+00:00"
+    },
+    {
+      "id": "mst204o0ur71d",
+      "nome": "JOÃO FRENTISTA",
+      "empresa": "POSTO FC IPIOCA LTDA",
+      "tipo": "posto",
+      "cnpj": "49.010.857/0001-81",
+      "filiais": [],
+      "telefone": "",
+      "email": "",
+      "cidade": "MACEIO ALAGOAS",
+      "endereco": "AV JOÃO OMENA DE ANDRADE",
+      "lat": -9.78035469887289,
+      "lng": -36.6490952643486,
+      "bombas": "",
+      "tamanhoLoja": "",
+      "origem": "Visita / prospecção",
+      "status": "lead",
+      "valorEstimado": 0,
+      "valorImplantacao": 0,
+      "valorMensalidade": 0,
+      "observacoes": "AV JOÃO OMENA DE ANDRADE\nMACEIO",
+      "historico": [
+        {
+          "data": "2026-08-14T14:39:59.904Z",
+          "texto": "Lead criado a partir de posto visitado"
+        },
+        {
+          "data": "2026-08-14T14:39:59.904Z",
+          "texto": "Visita: Visita presencial · Interesse: baixo"
+        }
+      ],
+      "criadoEm": "2026-08-14T14:39:59.904+00:00"
+    },
+    {
+      "id": "mst1snui9hogm",
+      "nome": "TOTAL GIRO",
+      "empresa": "POSTO TOTAL GIRO",
+      "tipo": "posto",
+      "cnpj": "05.307.247/0001-79",
+      "filiais": [],
+      "telefone": "",
+      "email": "",
+      "cidade": "",
+      "endereco": "",
+      "lat": null,
+      "lng": null,
+      "bombas": "",
+      "tamanhoLoja": "",
+      "origem": "Indicação",
+      "status": "lead",
+      "valorEstimado": 0,
+      "valorImplantacao": 0,
+      "valorMensalidade": 0,
+      "observacoes": "",
+      "historico": [
+        {
+          "data": "2026-08-14T14:34:11.514Z",
+          "texto": "Lead criado a partir de posto visitado"
+        },
+        {
+          "data": "2026-08-14T14:34:11.514Z",
+          "texto": "Visita: Visita presencial · Interesse: alto"
+        },
+        {
+          "data": "2026-08-14T14:57:49.992Z",
+          "texto": "Status → Lead"
+        }
+      ],
+      "criadoEm": "2026-08-14T14:34:11.514+00:00"
+    },
+    {
+      "id": "mst13nc830fx7",
+      "nome": "SR. MARIO MARACANÃ",
+      "empresa": "POSTO MARACANÃ",
+      "tipo": "posto",
+      "cnpj": "01332922000169",
+      "filiais": [],
+      "telefone": "8299869018",
+      "email": "",
+      "cidade": "SANTA DO IPANEMA",
+      "endereco": "RUA PEDRO BRANDAO,  370",
+      "lat": -9.7803479577317,
+      "lng": -36.6491058316228,
+      "bombas": "4",
+      "tamanhoLoja": "",
+      "origem": "Visita / prospecção",
+      "status": "lead",
+      "valorEstimado": 7500,
+      "valorImplantacao": 7500,
+      "valorMensalidade": 1500,
+      "observacoes": "",
+      "historico": [
+        {
+          "data": "2026-08-14T14:14:44.456Z",
+          "texto": "Lead criado a partir de posto visitado"
+        },
+        {
+          "data": "2026-08-14T14:14:44.456Z",
+          "texto": "Visita: Visita presencial · Interesse: medio"
+        }
+      ],
+      "criadoEm": "2026-08-14T14:14:44.456+00:00"
+    },
+    {
+      "id": "mspftq31ui5ft",
+      "nome": "ALEXANDRE BEZERRA MENEZES",
+      "empresa": "POSTO CANCUN LTDA",
+      "tipo": "posto",
+      "cnpj": "01912250000241",
+      "filiais": [],
+      "telefone": "8132218926/8134371747",
+      "email": "",
+      "cidade": "PAULISTA",
+      "endereco": "",
+      "lat": null,
+      "lng": null,
+      "bombas": "4",
+      "tamanhoLoja": "",
+      "origem": "Indicação",
+      "status": "proposta",
+      "valorEstimado": 15000,
+      "valorImplantacao": 15000,
+      "valorMensalidade": 3000,
+      "observacoes": "Cliente em negociação (vamos ter uma reunião com todos os sócios e contabilidade",
+      "historico": [
+        {
+          "data": "2026-08-12T01:55:50.989Z",
+          "texto": "Lead criado"
+        },
+        {
+          "data": "2026-08-12T02:20:04.852Z",
+          "texto": "Proposta PROP-2026-003 atualizada"
+        },
+        {
+          "data": "2026-08-14T15:32:58.727Z",
+          "texto": "Visita de prospecção registrada (Visita presencial)"
+        },
+        {
+          "data": "2026-08-14T17:00:50.695Z",
+          "texto": "Proposta PROP-2026-003 atualizada"
+        },
+        {
+          "data": "2026-08-18T12:59:38.007Z",
+          "texto": "Proposta PROP-2026-003 atualizada"
+        },
+        {
+          "data": "2026-09-03T09:43:00.139Z",
+          "texto": "Proposta PROP-2026-002 criada"
+        },
+        {
+          "data": "2026-09-03T09:43:35.187Z",
+          "texto": "Proposta PROP-2026-003 atualizada"
+        },
+        {
+          "data": "2026-09-03T09:44:37.732Z",
+          "texto": "Proposta PROP-2026-002 atualizada"
+        }
+      ],
+      "criadoEm": "2026-08-12T01:55:50.989+00:00"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "mspe1s1ze1tmo",
+      "leadId": null,
+      "nome": "ALEXANDRE BEZERRA MENEZES",
+      "empresa": "POSTO CANCUN LTDA",
+      "tipo": "posto",
+      "cnpj": "01912250000241",
+      "filiais": [],
+      "telefone": "8132218926/8134371747",
+      "email": "",
+      "cidade": "PAULISTA - RECIFE - PE",
+      "bombas": "4",
+      "tamanhoLoja": "",
+      "status": "ativo",
+      "sistemas": [
+        "AutoSytem - linx totvs"
+      ],
+      "produtosIds": [
+        "p1"
+      ],
+      "modulos": [
+        "Frente de caixa",
+        "Controle de bombas",
+        "Nota fiscal (NFC-e)",
+        "Controle de turno",
+        "Relatórios de venda",
+        "Integração com tanques"
+      ],
+      "valorContrato": 7500,
+      "valorImplantacao": 7500,
+      "valorMensalidade": 1500,
+      "dataFechamento": "2026-08-12T01:06:07.559+00:00",
+      "observacoes": "Cliente em negociação (vamos ter uma reunião com todos os sócios e contabilidade"
+    }
+  ],
+  "deals": [
+    {
+      "id": "mspftq31w0zp3",
+      "leadId": "mspftq31ui5ft",
+      "titulo": "POSTO CANCUN LTDA",
+      "contato": "ALEXANDRE BEZERRA MENEZES",
+      "valor": 15000,
+      "stage": "proposta",
+      "tipo": "posto",
+      "criadoEm": "2026-08-12T01:55:50.989+00:00"
+    },
+    {
+      "id": "mst13nc9i0mbs",
+      "leadId": "mst13nc830fx7",
+      "titulo": "POSTO MARACANÃ",
+      "contato": "SR. MARIO MARACANÃ",
+      "valor": 7500,
+      "stage": "lead",
+      "tipo": "posto",
+      "criadoEm": "2026-08-14T14:14:44.456+00:00"
+    },
+    {
+      "id": "mst1snuibkqzi",
+      "leadId": "mst1snui9hogm",
+      "titulo": "POSTO TOTAL GIRO",
+      "contato": "TOTAL GIRO",
+      "valor": 0,
+      "stage": "lead",
+      "tipo": "posto",
+      "criadoEm": "2026-08-14T14:34:11.514+00:00"
+    },
+    {
+      "id": "mst204o17wmzb",
+      "leadId": "mst204o0ur71d",
+      "titulo": "POSTO FC IPIOCA LTDA",
+      "contato": "JOÃO FRENTISTA",
+      "valor": 0,
+      "stage": "lead",
+      "tipo": "posto",
+      "criadoEm": "2026-08-14T14:39:59.904+00:00"
+    },
+    {
+      "id": "mst23pvzohquk",
+      "leadId": "mst23pvzni1ia",
+      "titulo": "MARES DO NORTE EMPREENDIMENTOS",
+      "contato": "FRANTISTA ANA",
+      "valor": 0,
+      "stage": "lead",
+      "tipo": "posto",
+      "criadoEm": "2026-08-14T14:42:47.375+00:00"
+    },
+    {
+      "id": "mst26tso0c6bd",
+      "leadId": "mst26tsobsafj",
+      "titulo": "POSTO CARANGO",
+      "contato": "FRENTISTA -",
+      "valor": 0,
+      "stage": "lead",
+      "tipo": "posto",
+      "criadoEm": "2026-08-14T14:45:12.408+00:00"
+    },
+    {
+      "id": "mst2z24gcqmau",
+      "leadId": "mst2z24gnhs1p",
+      "titulo": "CAVALCANTE & LEITE LTDA - ME",
+      "contato": "Cicero Aparecido",
+      "valor": 15000,
+      "stage": "proposta",
+      "tipo": "posto",
+      "criadoEm": "2026-08-14T15:07:09.568+00:00"
+    },
+    {
+      "id": "mtlhhcdzd241j",
+      "leadId": "mtlhhcdzdb6iy",
+      "titulo": "POSTO CAETE LTDA",
+      "contato": "FLAFIO FERREIRA",
+      "valor": 1400,
+      "stage": "proposta",
+      "tipo": "posto",
+      "criadoEm": "2026-09-03T12:10:50.231+00:00"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "prop-caete-55",
+      "numero": "PROP-2026-0055",
+      "leadId": "mtlhhcdzdb6iy",
+      "empresa": "POSTO CAETE LTDA",
+      "clienteEmpresa": "POSTO CAETE LTDA",
+      "contato": "FLAFIO FERREIRA",
+      "clienteNome": "FLAFIO FERREIRA",
+      "telefone": "(82) 99999-1234",
+      "clienteTelefone": "(82) 99999-1234",
+      "email": "contato@postocaete.com.br",
+      "clienteEmail": "contato@postocaete.com.br",
+      "cnpj": "12.345.678/0001-90",
+      "clienteCnpj": "12.345.678/0001-90",
+      "cidade": "Maceió / AL",
+      "clienteCidade": "Maceió / AL",
+      "itens": [
+        {
+          "produtoId": "p-linx-autosystem",
+          "nome": "Linx- TOTVS-Autosystem PRO + GLOUD",
+          "descricao": "Suite em nuvem com Autosystem pro, emissão fiscal, TEF, conciliação e app gestor.",
+          "preco": 0,
+          "precoUnitario": 0,
+          "implantacao": 3000,
+          "mensalidade": 1340,
+          "qtd": 1,
+          "quantidade": 1,
+          "modulos": [
+            { "nome": "Autosystem pro", "preco": 0 },
+            { "nome": "SNAST-POS", "preco": 0 },
+            { "nome": "NAFC-E MENSAL", "preco": 0 },
+            { "nome": "Equals", "preco": 0 },
+            { "nome": "QR code", "preco": 0 },
+            { "nome": "Linx-autosystem GLOUD (NUVEM)", "preco": 0 },
+            { "nome": "Gestor app", "preco": 0 }
+          ],
+          "modulosInclusos": [
+            "Autosystem pro",
+            "SNAST-POS",
+            "NAFC-E MENSAL",
+            "Equals",
+            "QR code",
+            "Linx-autosystem GLOUD (NUVEM)",
+            "Gestor app"
+          ]
+        }
+      ],
+      "desconto": 0,
+      "descontoImplantacao": 0,
+      "descontoMensalidade": 0,
+      "replicarFiliais": false,
+      "unidadesRede": 1,
+      "status": "enviada",
+      "validade": "2026-09-25T12:00:00.000Z",
+      "validadeDias": 15,
+      "condicoesPagamento": "Implantação: 50% de entrada + 50% após conclusão. Mensalidade com vencimento todo dia 10.",
+      "observacoes": "Inclusos suporte técnico comercial e atualizações legais Linx/TOTVS.",
+      "valorTotalLicenca": 0,
+      "valorLicencaCadastro": 0,
+      "valorTotalImplantacao": 3000,
+      "valorImplantacaoCadastro": 3000,
+      "valorTotalMensalidade": 1340,
+      "valorMensalidadeCadastro": 1340,
+      "criadoEm": "2026-09-03T12:23:42.850Z",
+      "dataCriacao": "2026-09-03T12:23:42.850Z"
+    },
+    {
+      "id": "prop-cavalcante-03",
+      "numero": "PROP-2026-003",
+      "leadId": "mst2z24gnhs1p",
+      "empresa": "CAVALCANTE & LEITE LTDA - ME",
+      "clienteEmpresa": "CAVALCANTE & LEITE LTDA - ME",
+      "contato": "Cicero Aparecido",
+      "clienteNome": "Cicero Aparecido",
+      "telefone": "(82) 98888-2233",
+      "clienteTelefone": "(82) 98888-2233",
+      "email": "cicero@cavalcanteleite.com.br",
+      "clienteEmail": "cicero@cavalcanteleite.com.br",
+      "cnpj": "09.231.306/0001-23",
+      "clienteCnpj": "09.231.306/0001-23",
+      "cidade": "Maceió, Alagoas",
+      "clienteCidade": "Maceió, Alagoas",
+      "itens": [
+        {
+          "produtoId": "p7",
+          "nome": "Automação de Bombas (Básico)",
+          "descricao": "Integração com concentradores e automação de bombas. Liberação e captura de volume.",
+          "preco": 12000,
+          "precoUnitario": 12000,
+          "implantacao": 3500,
+          "mensalidade": 400,
+          "qtd": 1,
+          "quantidade": 1,
+          "modulos": [
+            { "nome": "Comunicação com concentrador", "preco": 0 },
+            { "nome": "Captura de encerrantes", "preco": 0 }
+          ],
+          "modulosInclusos": [
+            "Comunicação com concentrador",
+            "Captura de encerrantes"
+          ]
+        },
+        {
+          "produtoId": "p1",
+          "nome": "Sistema PDV Posto",
+          "descricao": "Ponto de venda completo para pista e frente de caixa.",
+          "preco": 3000,
+          "precoUnitario": 3000,
+          "implantacao": 11500,
+          "mensalidade": 2600,
+          "qtd": 1,
+          "quantidade": 1,
+          "modulos": [
+            { "nome": "Frente de caixa", "preco": 0 },
+            { "nome": "Emissão fiscal", "preco": 0 }
+          ],
+          "modulosInclusos": [
+            "Frente de caixa",
+            "Emissão fiscal"
+          ]
+        }
+      ],
+      "desconto": 0,
+      "descontoImplantacao": 0,
+      "descontoMensalidade": 0,
+      "replicarFiliais": false,
+      "unidadesRede": 1,
+      "status": "enviada",
+      "validade": "2026-09-25T12:00:00.000Z",
+      "validadeDias": 15,
+      "condicoesPagamento": "Implantação parcelada em 3x. Mensalidade com vencimento dia 15.",
+      "observacoes": "Instalação presencial com homologação de pistas e bombas.",
+      "valorTotalLicenca": 15000,
+      "valorLicencaCadastro": 15000,
+      "valorTotalImplantacao": 15000,
+      "valorImplantacaoCadastro": 15000,
+      "valorTotalMensalidade": 3000,
+      "valorMensalidadeCadastro": 3000,
+      "criadoEm": "2026-08-14T15:07:09.568Z",
+      "dataCriacao": "2026-08-14T15:07:09.568Z"
+    },
+    {
+      "id": "prop-cancun-02",
+      "numero": "PROP-2026-002",
+      "leadId": "mspftq31ui5ft",
+      "empresa": "POSTO CANCUN LTDA",
+      "clienteEmpresa": "POSTO CANCUN LTDA",
+      "contato": "ALEXANDRE BEZERRA MENEZES",
+      "clienteNome": "ALEXANDRE BEZERRA MENEZES",
+      "telefone": "8132218926/8134371747",
+      "clienteTelefone": "8132218926/8134371747",
+      "email": "contato@postocancun.com.br",
+      "clienteEmail": "contato@postocancun.com.br",
+      "cnpj": "01912250000241",
+      "clienteCnpj": "01912250000241",
+      "cidade": "PAULISTA - RECIFE - PE",
+      "clienteCidade": "PAULISTA - RECIFE - PE",
+      "itens": [
+        {
+          "produtoId": "p1",
+          "nome": "AutoSytem - linx totvs",
+          "descricao": "ERP e Automação de pista para postos de combustíveis e conveniência.",
+          "preco": 15000,
+          "precoUnitario": 15000,
+          "implantacao": 15000,
+          "mensalidade": 3000,
+          "qtd": 1,
+          "quantidade": 1,
+          "modulos": [
+            { "nome": "Frente de caixa", "preco": 0 },
+            { "nome": "Controle de bombas", "preco": 0 },
+            { "nome": "Nota fiscal (NFC-e)", "preco": 0 },
+            { "nome": "Controle de turno", "preco": 0 },
+            { "nome": "Relatórios de venda", "preco": 0 },
+            { "nome": "Integração com tanques", "preco": 0 }
+          ],
+          "modulosInclusos": [
+            "Frente de caixa",
+            "Controle de bombas",
+            "Nota fiscal (NFC-e)",
+            "Controle de turno",
+            "Relatórios de venda",
+            "Integração com tanques"
+          ]
+        }
+      ],
+      "desconto": 0,
+      "descontoImplantacao": 0,
+      "descontoMensalidade": 0,
+      "replicarFiliais": false,
+      "unidadesRede": 1,
+      "status": "negociacao",
+      "validade": "2026-09-25T12:00:00.000Z",
+      "validadeDias": 15,
+      "condicoesPagamento": "Reunião de fechamento agendada com diretoria e contabilidade.",
+      "observacoes": "Em negociação comercial com desconto para suite Linx/Totvs.",
+      "valorTotalLicenca": 15000,
+      "valorLicencaCadastro": 15000,
+      "valorTotalImplantacao": 15000,
+      "valorImplantacaoCadastro": 15000,
+      "valorTotalMensalidade": 3000,
+      "valorMensalidadeCadastro": 3000,
+      "criadoEm": "2026-09-03T09:43:00.139Z",
+      "dataCriacao": "2026-09-03T09:43:00.139Z"
+    },
+    {
+      "id": "prop-1",
+      "numero": "PROP-2026-001",
+      "leadId": "lead-1",
+      "empresa": "Posto Estrela do Sul",
+      "clienteEmpresa": "Posto Estrela do Sul",
+      "contato": "Carlos Mendes",
+      "clienteNome": "Carlos Mendes",
+      "telefone": "(11) 98765-4321",
+      "clienteTelefone": "(11) 98765-4321",
+      "email": "carlos@estreladosul.com.br",
+      "clienteEmail": "carlos@estreladosul.com.br",
+      "cnpj": "12.345.678/0001-90",
+      "clienteCnpj": "12.345.678/0001-90",
+      "cidade": "São Paulo / SP",
+      "clienteCidade": "São Paulo / SP",
+      "itens": [
+        {
+          "produtoId": "p7",
+          "nome": "Automação de Bombas (Concentrador)",
+          "descricao": "Comunicação direta com concentrador e pré-determinação de abastecimento.",
+          "preco": 14500,
+          "precoUnitario": 14500,
+          "implantacao": 4500,
+          "mensalidade": 450,
+          "qtd": 1,
+          "quantidade": 1,
+          "modulos": [
+            { "nome": "Comunicação direta com concentrador", "preco": 0 },
+            { "nome": "Pré-determinação de abastecimento", "preco": 500 }
+          ],
+          "modulosInclusos": [
+            "Comunicação direta com concentrador",
+            "Pré-determinação de abastecimento"
+          ]
+        },
+        {
+          "produtoId": "p1",
+          "nome": "Sistema PDV Posto",
+          "descricao": "Frente de caixa e controle de bombas homologado.",
+          "preco": 8900,
+          "precoUnitario": 8900,
+          "implantacao": 2500,
+          "mensalidade": 350,
+          "qtd": 1,
+          "quantidade": 1,
+          "modulos": [
+            { "nome": "Frente de caixa", "preco": 0 },
+            { "nome": "Controle de bombas", "preco": 500 }
+          ],
+          "modulosInclusos": [
+            "Frente de caixa",
+            "Controle de bombas"
+          ]
+        }
+      ],
+      "desconto": 5,
+      "descontoImplantacao": 10,
+      "descontoMensalidade": 0,
+      "replicarFiliais": false,
+      "unidadesRede": 1,
+      "status": "enviada",
+      "validade": "2026-09-25T12:00:00.000Z",
+      "validadeDias": 15,
+      "condicoesPagamento": "Entrada 50% + 50% na conclusão da implantação. Mensalidade dia 10.",
+      "observacoes": "Instalação física com concentrador homologado e treinamento da equipe de pista e caixa.",
+      "valorTotalLicenca": 22230,
+      "valorLicencaCadastro": 22230,
+      "valorTotalImplantacao": 7000,
+      "valorImplantacaoCadastro": 7000,
+      "valorTotalMensalidade": 800,
+      "valorMensalidadeCadastro": 800,
+      "criadoEm": "2026-09-02T12:00:00.000Z",
+      "dataCriacao": "2026-09-02T12:00:00.000Z"
+    }
+  ],
+  "visitas": [],
+  "atividades": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "FERA CRM Postos & Conveniências",
+  "description": "Sistema CRM comercial para venda de software de postos de combustíveis e lojas de conveniência, com integração e migração prontas para Supabase.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
